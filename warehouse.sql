@@ -82,7 +82,7 @@ CREATE TABLE Customer_Accounts(
     Customer_ID INT FOREIGN KEY REFERENCES Customers(Customer_ID),
     Facility_ID INT FOREIGN KEY REFERENCES Facilities(Facility_ID),
     Account_Opened DATE NOT NULL,
-    Subscription_Length INT,
+    Subscription_Length INT CHECK(Subscription_Length >= 0),
     PRIMARY KEY (Customer_ID, Facility_ID)
 )
 
