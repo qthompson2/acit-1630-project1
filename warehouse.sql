@@ -10,10 +10,10 @@ GO
 CREATE TABLE Facilities(
     Facility_ID INT,
     Facility_City CHAR(15),
-    Facility_Province Char(4),
+    Facility_Province Char(2),
     Facility_PostCode CHAR(6),
     Facility_Street CHAR(20),
-    Facility_Phone INT,
+    Facility_Phone CHAR(15),
     PRIMARY KEY (Facility_ID)
 )
 
@@ -21,7 +21,7 @@ CREATE TABLE Customers(
     Customer_ID INT,
     Customer_LName CHAR(15),
     Customer_FName CHAR(15),
-    Customer_Phone INT,
+    Customer_Phone CHAR(15),
     Customer_Email CHAR(30),
     Customer_Address CHAR(30),
     PRIMARY KEY (Customer_ID)
@@ -34,7 +34,7 @@ CREATE TABLE Employees(
     Employee_FName CHAR(15),
     Employee_Salary MONEY CHECK(Employee_Salary >= 0),
     Employee_Email CHAR(30),
-    Employee_Phone INT,
+    Employee_Phone CHAR(15),
     Employee_Address CHAR(30),
     Supervisor_ID INT FOREIGN KEY REFERENCES Employees(Employee_ID),
     PRIMARY KEY (Employee_ID)
@@ -42,7 +42,7 @@ CREATE TABLE Employees(
 
 CREATE TABLE Lockers(
     Locker_ID INT,
-    Locker_Volume INT NOT NULL,
+    Locker_Volume FLOAT NOT NULL,
     Customer_ID INT FOREIGN KEY REFERENCES Customers(Customer_ID),
     Facility_ID INT FOREIGN KEY REFERENCES Facilities(Facility_ID),
     PRIMARY KEY (Locker_ID, Facility_ID)
