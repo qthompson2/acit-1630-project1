@@ -9,7 +9,7 @@ GO
 /*Primary Tables*/
 CREATE TABLE Facilities(
     Facility_ID INT,
-    Facility_City CHAR(15),
+    Facility_City CHAR(20),
     Facility_Province Char(2),
     Facility_PostCode CHAR(6),
     Facility_Street CHAR(20),
