@@ -7,18 +7,37 @@ INSERT INTO Facilities VALUES (0002, 'Ottawa', 'ON', 'def456', '1 Avenue ave.', 
 INSERT INTO Facilities VALUES (0003, 'Toronto', 'ON', 'dof457', '1 Boulevard blvd.', '8070010001')
 INSERT INTO Facilities VALUES (0004, 'North Battleford', 'SK', 'ghi789', '1 Lane ln.', '3060010001')
 INSERT INTO Facilities VALUES (0005, 'Vancouver', 'NU', 'jkl101', '100 Drive dr.', '8670010001')
+INSERT INTO Facilities VALUES (0006, 'London', 'ON', 'lmn203', '321 Gravel dr.', '7777777777')
+INSERT INTO Facilities VALUES (0007, 'Edmonton', 'AB', 'nop345', '456 Willow ln.', '9998887878')
+INSERT INTO Facilities VALUES (0008, 'Calgary', 'AB', 'ghf321', '654 Main st.', '6111661001')
+INSERT INTO Facilities VALUES (0009, 'Vancouver', 'BC', 'bjk908', '160 Carl blvd.', '4322322234')
+INSERT INTO Facilities VALUES (0010, 'Edmonton', 'AB', 'thy111', '7 7th ave.', '6473678338')
+
+/*Offices*/
+INSERT INTO Offices VALUES (0006, 1500, 1, 10)
+INSERT INTO Offices VALUES (0007, 20000, 12, 200)
+INSERT INTO Offices VALUES (0008, 6000, 4, 40)
+INSERT INTO Offices VALUES (0009, 10000, 6, 100)
+INSERT INTO Offices VALUES (0010, 2000, 1, 10)
+
+/*Depots*/
+INSERT INTO Depots VALUES (0001, 10, 4.0, '2021-09-19')
+INSERT INTO Depots VALUES (0002, 2, 3.5, '2020-12-24')
+INSERT INTO Depots VALUES (0003, 8, 5.0, '2018-06-26')
+INSERT INTO Depots VALUES (0004, 5, 4.0, '2019-01-01')
+INSERT INTO Depots VALUES (0005, 12, 4.5, '2020-08-18')
 
 /*Employees*/
 INSERT INTO Employees VALUES (0001, 0001, 'Willisch', 'Susan', 100.00, 'swillisch0@cyberchimps.com', '3957177630', '8 Fisk rd.', Null)
-INSERT INTO Employees VALUES (0002, 0001, 'Iacoviello', 'Granger', 100.00, 'giacoviello1@wikimedia.org', '3194213639', '1 Road rd.', 0002)
-INSERT INTO Employees VALUES (0003, 0002, 'Smith', 'John A.', 100.00, 'jasmith@gmail.com', '4423618559', '8 Moulton wy.', Null)
-INSERT INTO Employees VALUES (0004, 0002, 'Smith', 'John', 100.00, 'jsmith@gmail.com', '7329201764', '930 Bunker Hill plz.', 0003)
-INSERT INTO Employees VALUES (0005, 0003, 'Dimblebee', 'Chris L', 100.00, 'cldimblebee9@gov.uk', '9628689721', '1 Little Fleur ave.', Null)
-INSERT INTO Employees VALUES (0006, 0003, 'O Dulchonta', 'Lennie', 100.00, 'lodulchonta@gmail.com', '5376945588', '97379 Division ave.', 0004)
-INSERT INTO Employees VALUES (0007, 0004, 'Cowell', 'Basil', 100.00, 'bcowell@gmail.com', '4385533906', '6 Rutledge rd.', 0004)
-INSERT INTO Employees VALUES (0008, 0005, 'Palk', 'Elnore', 100.00, 'epalkf@google.ca', '6895385196', '14746 Welch wy.', Null)
-INSERT INTO Employees VALUES (0009, 0005, 'Bunkle', 'Solly B', 100.00, 'sbbunkle@yahoo.com', '4983351920', '4 Darwin blvd.', Null)
-INSERT INTO Employees VALUES (0010, 0005, 'Nurny', 'Joel', 100.00, 'jnurny@gmail.com', '4539417795', '393 Troy st.', 0009)
+INSERT INTO Employees VALUES (0002, 0002, 'Iacoviello', 'Granger', 100.00, 'giacoviello1@wikimedia.org', '3194213639', '1 Road rd.', 0002)
+INSERT INTO Employees VALUES (0003, 0003, 'Smith', 'John A.', 100.00, 'jasmith@gmail.com', '4423618559', '8 Moulton wy.', Null)
+INSERT INTO Employees VALUES (0004, 0004, 'Smith', 'John', 100.00, 'jsmith@gmail.com', '7329201764', '930 Bunker Hill plz.', 0003)
+INSERT INTO Employees VALUES (0005, 0005, 'Dimblebee', 'Chris L', 100.00, 'cldimblebee9@gov.uk', '9628689721', '1 Little Fleur ave.', Null)
+INSERT INTO Employees VALUES (0006, 0006, 'O Dulchonta', 'Lennie', 100.00, 'lodulchonta@gmail.com', '5376945588', '97379 Division ave.', 0004)
+INSERT INTO Employees VALUES (0007, 0007, 'Cowell', 'Basil', 100.00, 'bcowell@gmail.com', '4385533906', '6 Rutledge rd.', 0004)
+INSERT INTO Employees VALUES (0008, 0008, 'Palk', 'Elnore', 100.00, 'epalkf@google.ca', '6895385196', '14746 Welch wy.', Null)
+INSERT INTO Employees VALUES (0009, 0009, 'Bunkle', 'Solly B', 100.00, 'sbbunkle@yahoo.com', '4983351920', '4 Darwin blvd.', Null)
+INSERT INTO Employees VALUES (0010, 0010, 'Nurny', 'Joel', 100.00, 'jnurny@gmail.com', '4539417795', '393 Troy st.', 0009)
 
 /*Customers*/
 INSERT INTO Customers VALUES (0001, 'Grigorini', 'Alidia', '5734082071', 'agrigorini0@edublogs.org', '1108 Service ave.')
@@ -29,15 +48,15 @@ INSERT INTO Customers VALUES (0005, 'Livard', 'Miller', '8652956835', 'mlivard4@
 
 /*Lockers*/
 INSERT INTO Lockers VALUES (0001, 2, 0001, 0001)
-INSERT INTO Lockers VALUES (0002, 2, 0002, 0009)
-INSERT INTO Lockers VALUES (0003, 4, 0003, 0008)
+INSERT INTO Lockers VALUES (0002, 2, 0002, 0004)
+INSERT INTO Lockers VALUES (0003, 4, 0003, 0003)
 INSERT INTO Lockers VALUES (0004, 4, 0001, 0002)
 INSERT INTO Lockers VALUES (0005, 4, 0004, 0003)
-INSERT INTO Lockers VALUES (0006, 2, 0004, 0010)
+INSERT INTO Lockers VALUES (0006, 2, 0004, 0005)
 INSERT INTO Lockers VALUES (0007, 2, 0003, 0004)
-INSERT INTO Lockers VALUES (0008, 1, 0005, 0007)
+INSERT INTO Lockers VALUES (0008, 1, 0005, 0002)
 INSERT INTO Lockers VALUES (0009, 2, 0002, 0005)
-INSERT INTO Lockers VALUES (0010, 2, 0001, 0006)
+INSERT INTO Lockers VALUES (0010, 2, 0001, 0001)
 
 /*Skills*/
 INSERT INTO Skills VALUES (0001, 'Forklift Certified', 1000)
@@ -80,7 +99,7 @@ INSERT INTO Certifications VALUES (0001, 0001, '2022-01-02')
 INSERT INTO Certifications VALUES (0003, 0002, '2000-06-24')
 INSERT INTO Certifications VALUES (0002, 0004, '2021-11-13')
 INSERT INTO Certifications VALUES (0005, 0003, '2011-03-23')
-INSERT INTO Certifications VALUES (0001, 0001, '2019-08-01')
+INSERT INTO Certifications VALUES (0001, 0002, '2019-08-01')
 
 /*Assignments*/
 INSERT INTO Assignments VALUES (0001, 0002, '2019-05-26')

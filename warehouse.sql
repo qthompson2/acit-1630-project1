@@ -14,13 +14,11 @@ CREATE TABLE Facilities(
     Facility_PostCode CHAR(6),
     Facility_Street CHAR(20),
     Facility_Phone CHAR(15),
-    Facility_Type CHAR(10)
     PRIMARY KEY (Facility_ID)
 )
 
 CREATE TABLE Offices(
-    Facility_ID INT,
-    Facility_Type CHAR(10),
+    Facility_ID INT FOREIGN KEY REFERENCES Facilities(Facility_ID),
     Office_Area INT,
     Meeting_Rooms INT,
     Cubicals INT,
@@ -28,7 +26,7 @@ CREATE TABLE Offices(
 )
 
 CREATE TABLE Depots(
-    Facility_ID INT,
+    Facility_ID INT FOREIGN KEY REFERENCES Facilities(Facility_ID),
     Loading_Docks INT,
     Max_Dock_Height FLOAT,
     Last_Inspection DATE,
