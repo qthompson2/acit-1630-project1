@@ -60,7 +60,7 @@ CREATE TABLE Lockers(
     Locker_ID INT,
     Locker_Volume FLOAT NOT NULL,
     Customer_ID INT FOREIGN KEY REFERENCES Customers(Customer_ID),
-    Facility_ID INT FOREIGN KEY REFERENCES Facilities(Facility_ID),
+    Facility_ID INT FOREIGN KEY REFERENCES Depots(Facility_ID),
     PRIMARY KEY (Locker_ID, Facility_ID)
 )
 
