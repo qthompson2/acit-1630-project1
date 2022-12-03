@@ -12,7 +12,7 @@ CREATE TABLE Facilities(
     Facility_City CHAR(20),
     Facility_Province Char(2),
     Facility_PostCode CHAR(6),
-    Facility_Street CHAR(20),
+    Facility_Street CHAR(30),
     Facility_Phone CHAR(15),
     PRIMARY KEY (Facility_ID)
 )

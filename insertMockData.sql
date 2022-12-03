@@ -48,16 +48,26 @@ INSERT INTO Depots VALUES (0014, 11, 2.9, '2020-02-15')
 INSERT INTO Depots VALUES (0020, 9, 3.5, '2022-05-23')
 
 /*Employees*/
-INSERT INTO Employees VALUES (0001, 0001, 'Willisch', 'Susan', 100.00, 'swillisch0@cyberchimps.com', '3957177630', '8 Fisk rd.', Null)
+INSERT INTO Employees VALUES (0001, 0001, 'Willisch', 'Susan', 100.00, 'swillisch0@cyberchimps.com', '3957177630', '8 Fisk rd.', NULL)
 INSERT INTO Employees VALUES (0002, 0002, 'Iacoviello', 'Granger', 100.00, 'giacoviello1@wikimedia.org', '3194213639', '1 Road rd.', 0002)
-INSERT INTO Employees VALUES (0003, 0003, 'Smith', 'John A.', 100.00, 'jasmith@gmail.com', '4423618559', '8 Moulton wy.', Null)
+INSERT INTO Employees VALUES (0003, 0003, 'Smith', 'John A.', 100.00, 'jasmith@gmail.com', '4423618559', '8 Moulton wy.', NULL)
 INSERT INTO Employees VALUES (0004, 0004, 'Smith', 'John', 100.00, 'jsmith@gmail.com', '7329201764', '930 Bunker Hill plz.', 0003)
-INSERT INTO Employees VALUES (0005, 0005, 'Dimblebee', 'Chris L', 100.00, 'cldimblebee9@gov.uk', '9628689721', '1 Little Fleur ave.', Null)
+INSERT INTO Employees VALUES (0005, 0005, 'Dimblebee', 'Chris L', 100.00, 'cldimblebee9@gov.uk', '9628689721', '1 Little Fleur ave.', NULL)
 INSERT INTO Employees VALUES (0006, 0006, 'O Dulchonta', 'Lennie', 100.00, 'lodulchonta@gmail.com', '5376945588', '97379 Division ave.', 0004)
 INSERT INTO Employees VALUES (0007, 0007, 'Cowell', 'Basil', 100.00, 'bcowell@gmail.com', '4385533906', '6 Rutledge rd.', 0004)
-INSERT INTO Employees VALUES (0008, 0008, 'Palk', 'Elnore', 100.00, 'epalkf@google.ca', '6895385196', '14746 Welch wy.', Null)
-INSERT INTO Employees VALUES (0009, 0009, 'Bunkle', 'Solly B', 100.00, 'sbbunkle@yahoo.com', '4983351920', '4 Darwin blvd.', Null)
+INSERT INTO Employees VALUES (0008, 0008, 'Palk', 'Elnore', 100.00, 'epalkf@google.ca', '6895385196', '14746 Welch wy.', NULL)
+INSERT INTO Employees VALUES (0009, 0009, 'Bunkle', 'Solly B', 100.00, 'sbbunkle@yahoo.com', '4983351920', '4 Darwin blvd.', NULL)
 INSERT INTO Employees VALUES (0010, 0010, 'Nurny', 'Joel', 100.00, 'jnurny@gmail.com', '4539417795', '393 Troy st.', 0009)
+INSERT INTO Employees VALUES (0011, 0011, 'Rule', 'Mitchel', 427.71, 'mrule0@sina.com.cn', '1659461440', '9 Harper Parkway', NULL);
+INSERT INTO Employees VALUES (0012, 0012, 'Matteini', 'Mitch', 469.42, 'mmatteini1@cloudflare.com', '8934371575', '956 Debra Center', NULL);
+INSERT INTO Employees VALUES (0013, 0013, 'Bech', 'Catharine', 538.3, 'cbech2@example.com', '7596782724', '32728 Lyons Park', NULL);
+INSERT INTO Employees VALUES (0014, 0014, 'Gamble', 'Nobie', 368.97, 'ngamble3@ezinearticles.com', '9722675012', '70523 Di Loreto Park', 0012);
+INSERT INTO Employees VALUES (0015, 0015, 'Lattimore', 'Ruttger', 486.74, 'rlattimore4@blogtalkradio.com', '5065706490', '04 Chive Place', 0012);
+INSERT INTO Employees VALUES (0016, 0016, 'Purple', 'Arabelle', 256.01, 'apurple5@dailymail.co.uk', '8417422980', '57749 Eggendart Point', NULL);
+INSERT INTO Employees VALUES (0017, 0017, 'Lowrie', 'Mandy', 84.11, 'mlowrie6@webeden.co.uk', '7939423341', '96 Charing Cross Parkway', 0011);
+INSERT INTO Employees VALUES (0018, 0018, 'Dufore', 'Annissa', 236.41, 'adufore7@symantec.com', '7499526680', '96 Jackson Plaza', 0010);
+INSERT INTO Employees VALUES (0019, 0019, 'Kingescot', 'Omero', 315.37, 'okingescot8@cbsnews.com', '9037505012', '573 Carpenter Road', 0010);
+INSERT INTO Employees VALUES (0020, 0020, 'Sayce', 'Gerty', 148.35, 'gsayce9@prnewswire.com', '7894524148', '49 Artisan Crossing', 0010);
 
 /*Customers*/
 INSERT INTO Customers VALUES (0001, 'Grigorini', 'Alidia', '5734082071', 'agrigorini0@edublogs.org', '1108 Service ave.')
