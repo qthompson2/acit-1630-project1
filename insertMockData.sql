@@ -15,7 +15,7 @@ INSERT INTO Facilities VALUES (0010, 'Edmonton', 'AB', 'thy111', '7 7th ave.', '
 INSERT INTO Facilities VALUES (0011, 'Moca', 'BC', '6r1s4e', '34 Weeping Birch Trail', '9455968949')
 INSERT INTO Facilities VALUES (0012, 'Banxi', 'SK', '9j4u7x', '41 Rockefeller Road', '4161687157')
 INSERT INTO Facilities VALUES (0013, 'Charras', 'AB', '4o4k3k', '5397 Butterfield Pass', '3393215170')
-INSERT INTO Facilities VALUES (0014, 'Curug', 'NU', '', '1a5m9z Transport Court', '6586594150')
+INSERT INTO Facilities VALUES (0014, 'Curug', 'NU', '', '1a5m9z', 'Transport Court', '6586594150')
 INSERT INTO Facilities VALUES (0015, 'Lemende', 'ON', '1q2g3t', '13 Havey Terrace', '2312053692')
 INSERT INTO Facilities VALUES (0016, 'Gaopu', 'NL', '1o1l2l', '6498 Coleman Drive', '7933798993')
 INSERT INTO Facilities VALUES (0017, 'Lefkímmi', 'YT', '9e8r7q', '8 Lake View Lane', '9516928243')
